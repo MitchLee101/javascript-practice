@@ -17,4 +17,3 @@ var fibo = function (a, b, c) {
   return "The sum of all evens are: " + evenPlus;
 };
 fibo (0, 1, 1);
-
