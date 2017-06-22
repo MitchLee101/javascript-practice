@@ -1,6 +1,7 @@
 var fibo = function (a, b, c) {
   var evenPlus = 0;
   var evens = [];
+  console.log("Fibonocci Sequence:")
   for (var i = 0; i < 3000000; i = c)
   if (c < 3000000) {
     c = a + b;
@@ -13,6 +14,7 @@ var fibo = function (a, b, c) {
     }
   }
   console.log("Even Numbers: " + evens);
-  return evenPlus;
+  return "The sum of all evens are: " + evenPlus;
 };
-fibo (0, 1, 1);
+var fibonocci = fibo (0, 1, 1);
+fibonocci;
