@@ -16,5 +16,5 @@ var fibo = function (a, b, c) {
   console.log("Even Numbers: " + evens);
   return "The sum of all evens are: " + evenPlus;
 };
-var fibonocci = fibo (0, 1, 1);
-fibonocci;
+fibo (0, 1, 1);
+
