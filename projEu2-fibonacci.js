@@ -7,8 +7,8 @@ var fibo = function (a, b, c) {
     c = a + b;
     a = b;
     b = c;
-    fiboSeq.push(c)
-    if (c % 2 == 0) {
+    fiboSeq.push(c);
+    if (c % 2 === 0) {
     evens.push(c);
     evenPlus += c;
     }
